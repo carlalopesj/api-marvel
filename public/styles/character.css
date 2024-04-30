@@ -27,11 +27,13 @@ body {
     border: 3px solid #be1f22;
     border-radius: 5px;
     box-shadow: 5px 4px 3px 2px rgba(0, 0, 0, 0.2);
+    height: 450px;
 }
 
 .char-card img {
     height: 350px;
     width: 300px;
+    max-height: 350px;
     border-radius: 5px;
 }
 

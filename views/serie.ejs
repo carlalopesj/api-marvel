@@ -1,4 +1,19 @@
-<% id.forEach(element => { %>
-    <%= element.title %>
-    <img src="<%= element.thumbnail.path+'.'+element.thumbnail.extension %>" >
-<% }); %>
+<%- include('partials/header.ejs') %>
+
+<link rel="stylesheet" href="styles/character.css" />
+
+<section id="characters">
+    <h2>Series</h2>
+    <hr>
+    <div class="char-container">
+        <div class="container-card">
+            <% id.forEach(element => { %>
+                <div class="char-card">
+                    <img src="<%= element.thumbnail.path+'.'+element.thumbnail.extension %>" alt="Image of <%= element.title %>" />
+                    <h3><%= element.title %></h3>
+                </div>
+            <% }); %>
+        </div>
+        <button class="btn show-more"><a href="/characters">Show more</a></button>
+    </div>
+</section>
