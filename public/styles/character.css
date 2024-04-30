@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+.char-container {
+    margin: 4rem;
+    margin-top: 3rem;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-bottom: 5rem;
+}
+
+.char-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    background-color: #8e191b;
+    border: 3px solid #be1f22;
+    border-radius: 5px;
+    box-shadow: 5px 4px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
+.char-card img {
+    height: 350px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.char-card h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+}
+
+.show-more {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}

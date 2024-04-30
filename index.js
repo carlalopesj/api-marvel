@@ -70,7 +70,7 @@ app.get("/event", async (req, res) => {
 
 app.get("/serie", async (req, res) => {
     try {
-        const response = await axios.get(`${url}/events?ts=${time}&apikey=${publicKey}&hash=${hash}&limit=50`);
+        const response = await axios.get(`${url}/events?ts=${time}&apikey=${publicKey}&hash=${hash}&limit=100`);
         console.log(response.data.data.results);
         const filteredResults = response.data.data.results.filter(character => {
             return !character.thumbnail.path.includes("/image_not_available");

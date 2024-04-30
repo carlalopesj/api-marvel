@@ -10,3 +10,40 @@ section {
     height: calc(100vh - 100px);
     padding-top: 100px;
 }
+
+section h2 {
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+    font-size: 2.2rem;
+}
+
+.btn {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #ea2227;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn a {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.btn i {
+    margin-right: 5px;
+}
+
+.btn:hover {
+    background-color: #951315;
+}
+
+hr {
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 25%;
+}
