@@ -34,7 +34,12 @@
 }
 
 .img-section {
-    height: 450px;
+    height: 480px;
+    width: 40%;
+}
+
+.img-left {
+    margin-left: -2rem;
 }
 
 #home-character {
@@ -42,8 +47,14 @@
 }
 
 .info-section {
+    width: 60%;
     text-align: center;
     color: white;
+    padding: 3rem;
+    background-color: rgb(30, 30, 30);
+    border-radius: 5px;
+    margin-right: 5rem;
+    margin-left: 5rem;
 }
 
 .info-section p {

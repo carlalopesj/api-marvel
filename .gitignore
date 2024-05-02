@@ -128,3 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+/* 
+const publicKey = "5238300681f52b7b35cdf631aa5b922a";
+const privateKey = "acceb8507d988ae6d9f16a20a4614200a158a22f";
+*/

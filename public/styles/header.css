@@ -23,4 +23,9 @@
 .nav-item a {
     color: rgb(238, 235, 235);
     font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-item a:hover {
+    color: red;
 }

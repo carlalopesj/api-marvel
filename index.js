@@ -8,8 +8,6 @@ const port = 3000;
 
 app.use(express.static("public"));
 
-const publicKey = "5238300681f52b7b35cdf631aa5b922a";
-const privateKey = "acceb8507d988ae6d9f16a20a4614200a158a22f";
 const time = Number(new Date());
 const hash = md5(time + privateKey + publicKey);
 
@@ -70,7 +68,7 @@ app.get("/event", async (req, res) => {
 
 app.get("/serie", async (req, res) => {
     try {
-        const response = await axios.get(`${url}/events?ts=${time}&apikey=${publicKey}&hash=${hash}&limit=100`);
+        const response = await axios.get(`${url}/events?ts=${time}&apikey=${publicKey}&hash=${hash}&limit=70`);
         console.log(response.data.data.results);
         const filteredResults = response.data.data.results.filter(character => {
             return !character.thumbnail.path.includes("/image_not_available");
