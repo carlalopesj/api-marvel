@@ -15,7 +15,7 @@ Após te-lô em sua máquina basta abrir o terminar e seguir os seguintes comand
 3. nodemon index.js (rodará o projeto em sua máquina, para abrir basta clicar no link gerado.)
 
 OBS: 
-- É necessário a instalação do node e a biblioteca do react, bem como uma ide de prefêrencia!
+- É necessário a instalação do node e suas dependências, bem como uma ide de prefêrencia!
 - Para obter as chaves, você deverá fazer o cadastro no site de api da marvel: [API - Marvel](https://developer.marvel.com/), caso tenha dúvidas, está tudo informado na documentação.
 
 Spoiler do resultado:
